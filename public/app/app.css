@@ -1,0 +1,143 @@
+.app-form {
+    box-shadow: 1px 1px 4px -1px #a7a7a7;
+    margin: 15px auto;
+    padding: 15px;
+}
+.w100{
+    width: 100% !important;
+}
+.input-group .alert ul{
+    margin-bottom: 0;
+}
+
+.content {
+    border: 1px solid #6b6b6b;
+}
+
+.header {
+    background: #6b6b6b;
+    padding: 10px;
+    color: #fff;
+}
+.header a{
+    color: #fff;
+}
+
+
+.welcome-text{
+    float: left;
+}
+
+.welcome-text span{
+    color:#77d5ff;
+}
+
+.logout{
+    float: right;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.body{
+    padding: 10px;
+}
+
+
+.sender {
+    margin-top: 5px;
+}
+
+.sender>div {
+    background-color: #6b6b6b;
+    margin: 25px 0;
+    color: #fff;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.sender>div>span {
+    position: absolute;
+    top: -15px;
+    color: #464646;
+    background: #ffffff;
+    box-shadow: 0 1px 7px -1px #333;
+    width: 100px;
+    text-align: center;
+}
+
+.sender>div>div {
+    margin-top: 10px;
+}
+
+
+.senders-table{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.senders-table thead {
+    background-color: #f5f5f5;
+}
+
+.senders-table tr,.senders-table td,.senders-table th{
+    border:1px solid #e8e8e8;
+    padding: 10px;
+}
+
+
+.option-button {
+    width: 75px;
+    display: inline-flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 3px;
+    transition: 220ms;
+    cursor: pointer;
+}
+
+td a{
+    text-decoration:none !important;
+}
+thead td:last-child {
+    width: 40%;
+}
+
+tr.error td:not(:first-child){
+    display: none;
+}
+tr.error td:first-child{
+    width: 100%;
+}
+
+.option-button.show{
+    background: #28a745;
+}
+.option-button.show:hover{
+    background: #008d28;
+}
+
+
+.option-button.edit{
+    background: #007bff;
+}
+.option-button.edit:hover{
+    background: #005ab4;
+}
+
+
+.option-button.delete{
+    background: #dc3545;
+}
+.option-button.delete:hover{
+    background: #8b2632;
+}
+
+.actions {
+    border-bottom: 1px solid #ababab;
+    padding-bottom: 10px;
+}
+
